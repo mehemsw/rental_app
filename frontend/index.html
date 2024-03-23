@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to MovieRentals</h1>
+    </header>
+
+    <main>
+        <button id="invBtn">Get Inventory</button>
+        <button id="custBtn">Get Customers</button>
+        <div id="listContainer"></div>
+
+        <div class="dropdown">
+          <label for="userSelect" id="userDropdownBtn">Get Individual Customer Rentals</label>
+            <div id="userDropdownContent">
+                <select id="userSelect">
+                    <option value="">-- Select a number --</option>
+                    <!-- Generate options dynamically using JavaScript -->
+                </select>
+            </div>
+            <div id="userContainer"></div>
+        </div>
+    </main>
+</body>
+</html>
